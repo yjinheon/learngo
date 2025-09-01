@@ -3,6 +3,8 @@ package learn
 import "fmt"
 
 func Range() {
+	var line string = "##### 11_range.go #####"
+	fmt.Println(line)
 	nums := []int{2, 3, 4}
 	sum := 0
 	for _, num := range nums {

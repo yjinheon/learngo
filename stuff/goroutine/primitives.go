@@ -10,6 +10,7 @@ func someFunc(num string) {
 }
 
 
+
 func main() {
 	go someFunc("1") // a goroutine is started. asynchrounous
 	go someFunc("2")

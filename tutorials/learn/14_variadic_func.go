@@ -1,4 +1,4 @@
-package main
+package learn
 
 import "fmt"
 
@@ -14,11 +14,9 @@ func sum(nums ...int) { // int 여러개를 인자로 받음
 		total += num
 	}
 	fmt.Println(total)
-
 }
 
-func main() {
-
+func VariadicFunc() {
 	sum(1, 2)
 	sum(1, 2, 3)
 

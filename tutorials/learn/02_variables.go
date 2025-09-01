@@ -2,14 +2,16 @@ package learn
 
 import "fmt"
 
+// special case
+
 func Variables() {
 	var line string = "##### 02_variables.go #####"
 	fmt.Println(line)
-	var a = "initial"
+	a := "initial"
 	fmt.Println(a)
 	var b, c int = 1, 2
 	fmt.Println(b, c)
-	var d = true
+	d := true
 	fmt.Println(d)
 	var e int
 	fmt.Println(e)
